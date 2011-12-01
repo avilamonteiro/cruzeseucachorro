@@ -1,0 +1,12 @@
+#Tue Nov 29 18:16:16 BRST 2011
+DELEGATES_PREFERENCE=delegateValidatorList
+USER_BUILD_PREFERENCE=enabledBuildValidatorListorg.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator;org.eclipse.wst.wsi.ui.internal.WSIMessageValidator;org.jboss.tools.common.verification.vrules.core.resources.CommonValidator;org.jboss.tools.jst.web.kb.internal.validation.ValidatorManager;org.jboss.tools.seam.internal.core.validation.SeamProjectPropertyValidator;
+USER_MANUAL_PREFERENCE=enabledManualValidatorListorg.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator;org.eclipse.wst.wsi.ui.internal.WSIMessageValidator;org.jboss.tools.common.verification.vrules.core.resources.CommonValidator;org.jboss.tools.jst.web.kb.internal.validation.ValidatorManager;org.jboss.tools.seam.internal.core.validation.SeamProjectPropertyValidator;
+USER_PREFERENCE=overrideGlobalPreferencestruedisableAllValidationfalseversion1.2.201.v201101270100
+eclipse.preferences.version=1
+override=true
+suspend=false
+vals/org.eclipse.jst.jsp.core.JSPBatchValidator/global=FF01
+vals/org.eclipse.wst.xml.core.xml/global=TT03
+vals/org.eclipse.wst.xsd.core.xsd/global=TT02162org.eclipse.wst.xsd.core.internal.validation.eclipse.Validator
+vf.version=3

@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Follow me</title>
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/jquery.metadata.js"></script>
+	<script type="text/javascript">
+	
+$.validator.setDefaults({
+		submitHandler: function() { alert("tarcilio!"); }
+});
+
+
+
+$().ready(function(){
+		
+		$("#limpa").click(function(){
+		$("#nome").val("");
+		$("#sobreNome").val("");
+		$("#email").val("");
+		$("#verificaSenha").val("");
+		$("#senhaNovamente").val("");
+	});
+
+	
+/*	$("#formTeste").validate({
+		
+		rules:{
+			nome: {
+				
+				required: true,
+				minlength: 2
+			},
+			sobreNome: {
+				
+				required: true,
+				minlength: 2
+			},
+			email: {
+				
+				required: true,
+				email: true
+			},
+			verificaSenha: {
+				
+				required: true,
+				minlength: 5
+			},
+			senhaNovamente: {
+				
+				required: true,
+				minlength: 5,
+				equalTo: "#verificaSenha"	
+			}
+			
+			
+		},
+		messages: {
+			nome: {
+			
+				required: "Por favor entre com um nome!",
+				minlength: "Entre no minimo com mais de 2 caracteres!"
+				
+			},
+			sobreNome: {
+				
+				required: "Por favor entre com um sobrenome!",
+				minlength: "Entre no minimo com mais de 2 caracteres!" 
+				
+			},
+			email: "Por favor entre com um e-mail valido!",
+				
+		
+			verificaSenha: {
+				
+				required: "Por favor entre com uma senha!",
+				minlength: "Entre no minimo com mais de 5 caracteres!"
+				
+			},
+			senhaNovamente: {
+				
+				required: "Por favor entre com uma senha!",
+				minlength: "Entre no minimo com mais de 5 caracteres!",
+				equalTo: "A senha deve ser a mesma senha anteriormente!"
+				
+			}
+			
+		}
+	})
+})	
+
+*/
+		
+		
+		</script>
+</head>
+<body>
+
+<form action="" id="formTeste" method="post">
+		
+		<h3>Teste Jquery</h3>
+		<table>
+		<tr align="left">
+		<td><label for="nome">Digite um nome:</label></td>&nbsp;
+		<td><input id="nome" size="20" name="nome" /></td>
+		</tr>
+		<tr align="left">
+		<td><label for="sobreNome">Digite um Sobrenome:</label></td>
+		<td><input id="sobreNome" size="20" name="sobreNome" /></td>
+		</tr>
+		<tr align="left">
+		<td><label for="email">Digita seu e-mail:</label></td>
+		<td><input  id="email" size="20" name="email" /></td>
+		</tr>
+		<tr align="left">
+		<td><label for="verificaSenha">Digite uma senha:</label></td>
+		<td><input type="password" id="verificaSenha" size="20" name="verificaSenha"/></td>
+		</tr>
+		<tr align="left">
+		<td><label for="senhaNovamente">Digite a senha novamente:</label></td>
+		<td><input type="password" id="senhaNovamente" size="20" name="senhaNovamente"/></td>
+		</tr>
+		<tr>
+		<td align="left"><input type="submit" value="OK" id="ok" name="ok"/></td>
+		<td align="left"><input type="submit" value="limpa" id="limpa" name="limpa" /></td>		
+		</tr>
+		</table>
+</form>
+</body>
+</html>
+

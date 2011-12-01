@@ -1,0 +1,284 @@
+<style>
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,  {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background:#d0f0f7 url(../images/bg_all.jpg) repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	}
+
+div#header {
+	width:100%;
+	background:url(../images/bg_header.jpg) repeat-x;
+	height:110px;
+	margin-top:30px;
+	}	
+
+div#wrap {
+	width:100%;
+	}
+
+div#wrap-header {
+	width:960px;
+	margin:0 auto;
+
+	}
+
+div#login {
+	float:right;
+	position:relative;
+	top:20px;
+	width:450px;
+	left:25px;
+	}
+
+.login {
+-moz-border-radius: 6px;
+border-radius: 6px;
+background:#dbffd2;
+border:1px solid #1f9605;
+font-size:16px;
+padding:5px;
+float:left;
+position:relative;
+margin-right:05px;
+/*-moz-box-shadow: 3px 3px 3px #1b560b;
+-webkit-box-shadow: 3px 3px 1px #1b560b;
+box-shadow: 3px 3px 1px #1b560b;*/
+	}
+	
+.login:focus {
+	/*-webkit-box-shadow:0 0 15px #b7ffa9; 
+	-moz-box-shadow: 0 0 15px #b7ffa9; 
+	box-shadow:0 0 15px #b7ffa9; 
+	*/}
+	
+.login_ok {
+	color:#fff;
+	font-weight:bold;
+	font-size:22px;
+	}	
+	
+.labels {
+	float:left;
+	width:185px;
+	color:#fff;
+	font-weight:bold;
+	font-size:14px;
+	}
+
+.esqueci {
+	color:#fff;
+	font-size:12px;
+	position:relative;
+	top:02px;
+	}
+	
+
+
+.mantenha-conectado	 {
+	color:#fff;
+	font-size:12px;
+	position:relative;
+	top:02px;
+	padding-right:30px;
+	}
+
+	
+div#logo {
+	float:left;
+	position:relative;
+	top:08px;
+	}	
+
+div#pegada {
+	float:right;
+	width:62px;
+	height:18px;
+	background:url(../images/ill_pegada.jpg) no-repeat;
+	margin:-30px 50px 0 0;
+	}
+
+.mnt-check {
+	float:left;
+	}
+	
+.login-ok {
+	background:#60ef37; 
+	border:none;
+	padding:05px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border:1px solid #3ea823;
+	color:#fff;
+	font-weight:bold;
+	padding-left:10px;
+	padding-right:10px;
+	}
+
+div#main {
+	width:955px;
+	height:315px;
+	margin:auto;
+	margin-top:05px;
+	padding:10px;
+
+	}
+	
+div#conheca {
+	width:450px;
+	float:left;
+	height:285px;
+	background:#e0f9ff;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border:1px solid #b6dde6;
+	margin-top:05px;
+	padding:10px;
+	}	
+	
+div#cadastrese {
+	width:455px;
+	float:right;
+	}		
+	
+div#cadastrese h1 {
+	color:#67c9df;
+	margin:0;
+	}	
+	
+div#cadastrese h4 {
+	color:#16454f;
+	margin:0;
+	}
+
+.cadastrese-form {
+	list-style:none;
+	margin:05px 0 0 0;
+	padding:0;
+	}
+	
+.cadastrese-form li {
+	padding:0;
+	margin:0;
+	padding-top:12px;
+	}
+	
+.cadastrese-form li input {
+	background:#fff;
+	padding:5px 10px 5px 10px;
+	-moz-border-radius: 05px;
+	border-radius: 05px;
+	border:1px solid #77b7c5;
+	width:330px;
+	background:url(../images/bg-input-form.jpg) repeat-x;
+	height:28px;
+	font-size:22px;
+	color:#748f95;
+
+		}
+		
+.cadastrese-form label {
+	display:block;
+	width:100px;
+	float:left;
+	color:#16454f;
+	margin-top:10px;
+	}
+	
+.cadastrese-botao {
+	background:#2ea7d5;
+	padding:07px;
+	-moz-border-radius: 08px;
+	border-radius: 08px;
+	border:1px solid #196e9e;
+	color:#fff;
+	font-size:18px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+/* FOOTER */
+
+div#footer {
+	width:650px;
+	margin:0 auto;
+	text-align:center;
+	font-size:12px;	}
+	
+
+.line-footer {
+	border-bottom:1px solid #b3ced4;	
+	width:100%;
+	height:1px;
+	display:block;
+	margin-top:15px;
+	}
+
+/* JQUERY */
+
+div.error { display: none; }
+input.error { border: 1px dotted red;}
+
+#errors {
+	background-color: #cc6666;
+	font: inherit;	
+}
+#messageerror{
+	background-color:red;
+	}
+
+form.leide label.error, label.error {
+	/* remove the next line when you have trouble in IE6 with labels in list */
+	color: red;
+	font-style: italic;
+	font-size: 14px;
+	clear:left;
+}
+
+.leide fieldset p.error label { color: red; }
+div.container {
+	background-color: #eee;
+	border: 1px solid red;
+	margin: 5px;
+	padding: 5px;
+}
+div.container ol li {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+div.container { display: none }
+.container label.error {
+	display: inline;
+}
+form.leide { width: 30em; }
+form.leide label.error {
+	display: block;
+	margin-left: 1em;
+	width: auto;
+}
+
+		
+	
+	
+	
